@@ -1,0 +1,32 @@
+*.foreground:   #D8DEE9
+*.background:   #2E3440
+*.cursorColor:  #D8D339
+*fading: 35
+*fadeColor: #4C566A
+
+*.color0: #2E3440
+*.color1: #BF616A
+*.color2: #A3BE8C
+*.color3: #EBCBBB
+*.color4: #81A1C1
+*.color5: #B48EAD
+*.color6: #88C0D0
+*.color7: #E5E9F0
+*.color8: #4C566A
+*.color9: #BF616A
+*.color10: #A3BE8C
+*.color11: #EBCBBB
+*.color12: #81A1C1
+*.color13: #B48EAD
+*.color14: #8FBCBB
+*.color15: #ECEFF4
+
+URxvt.font: xft:MesloLGS NF:size=11:antialias=true
+URxvt.scrollstyle: plain
+URxvt.perl-lib: /home/jaden/.config/urxvt/ext/
+URxvt.perl-ext-common: default,matcher,tabbedex
+URxvt.scrollBar-rigt: true
+URxvt.url-launcher: firefox
+URxvt.matcher.button: 1
+URxvt.keysym.M-u: perl:matcher:select
+URxvt.matcher.rend.0: Uline Bold fg5
